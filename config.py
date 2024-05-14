@@ -1,0 +1,6 @@
+class Config:
+    SECRET_KEY = ('eyJhbGciOiJIUzI1NiJ9'
+                  '.eyJhdWQiOiIzNWM2ZTgwZDZiYWQwYWJlNTI1NDMyZmNjZTFjYTY5ZiIsInN1YiI6IjY2NDM0ZDRhNGM3NTdiODUyYTc3ZjY5OSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.ldaOw42QgIRcIcmwbP9Q-uFCPVYLtjxm8_mPrlpNdzA')
+    SQLALCHEMY_DATABASE_URI = 'sqlite:///site.db'
+    SQLALCHEMY_TRACK_MODIFICATIONS = False
+    TMDB_API_KEY = '35c6e80d6bad0abe525432fcce1ca69f'
